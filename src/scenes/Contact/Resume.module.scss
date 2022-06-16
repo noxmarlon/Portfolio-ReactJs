@@ -1,0 +1,128 @@
+.content {
+  padding: 9rem 9rem 3rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  padding-top: 10px;
+  color: var(--txt);
+  font-size: 6rem;
+  font-weight: 200;
+}
+
+.filesImg {
+  width: 35%;
+  min-width: 120px;
+  padding: 1rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .hero-svg2 {
+    fill: #8a4ca8;
+  }
+}
+
+.pdfWrapper {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.downloadText {
+  margin-left: 8px;
+  text-transform: uppercase;
+}
+.filename {
+  padding-top: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+
+@media (max-width: 600px) {
+  .header {
+    padding-bottom: 10px;
+  }
+  .title {
+    font-size: 3rem;
+  }
+
+  .pdfWrapper {
+    width: 100%;
+    padding: 2rem 0;
+  }
+}
+
+@media (max-width: 925px) {
+  .content {
+    padding: 9rem 3rem 1rem;
+  }
+  .title {
+    font-size: 4rem;
+  }
+
+  .formWord {
+    width: 40%;
+    padding: 4%;
+  }
+  .formWord h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Josefin Sans", sans-serif;
+    margin-bottom: 10%;
+  }
+  .formWord input {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10%;
+    border: 0;
+    margin-top: 2%;
+    padding-left: 3%;
+    background: #ffffff;
+    -webkit-box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
+    box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
+  }
+  .formWord textarea {
+    width: 100%;
+    margin-bottom: 10%;
+    border: 0;
+    margin-top: 2%;
+    height: 80px;
+    color: black;
+    -webkit-box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
+    box-shadow: 0px 0px 48px 0px rgb(218, 218, 218);
+    padding-left: 3%;
+  }
+  .form {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  form {
+    width: 80%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background-color: white;
+    overflow: hidden;
+    border-radius: 20px; 
+  }
+}
